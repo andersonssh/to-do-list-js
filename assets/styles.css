@@ -1,0 +1,90 @@
+body{
+    background-color: #68CBE6;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+#caixa-principal{
+    margin-top: 50px;
+    text-align: center;
+    /*largura*/
+    min-width: 300px;
+    width: 55%;
+    max-width: 600px;
+    margin: auto;
+}
+
+#inserir{
+    padding: 10px;
+}
+#inserir button{
+    margin-top: 10px;
+}
+
+#adicionar{
+    color: white;
+    background-color: #12a72b;
+    text-transform: uppercase;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 13px;
+    margin: 5px;
+}
+
+#adicionar:hover{
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #05911c;
+
+}
+
+#entrada-texto{
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
+.entrada-texto:focus{
+    outline: 1px solid rgb(13, 71, 180);
+}
+
+.tarefa-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    text-align: left;
+    border-radius: 7px;
+    box-shadow: 0px 0px 2px black;
+}
+
+.tarefa-item input{
+    margin: 7px;
+    transform: scale(1.5);
+}
+
+.botoes-item{
+    display: flex;
+}
+
+.tarefa-item button{
+    padding: 2px 4px 2px 4px;
+    margin: 2px;
+    background-color: rgb(255, 68, 68);
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.tarefa-item button:hover{
+    cursor: pointer;
+    background-color: rgb(231, 26, 26);
+}
+
+.texto-desativado{
+    color: rgba(0, 0, 0, 0.664);
+    text-decoration: line-through;
+}
